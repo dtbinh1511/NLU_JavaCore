@@ -1,0 +1,50 @@
+package watch;
+
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Observable;
+
+public class Watch extends Observable {
+
+	private int second;
+	private int minute;
+	private int hour;
+
+	public int getSecond() {
+		return second;
+	}
+
+	public int getMinute() {
+		return minute;
+	}
+
+	public int getHour() {
+		return hour;
+	}
+
+	public void meansurementsChange() {
+		setChanged();
+		notifyObservers();
+	}
+
+	public void setMeansurements() {
+		try {
+		while (true) {
+			
+			Calendar calendar = Calendar.getInstance();
+			this.second = (calendar.getTime().getHours() > 9) ? calendar.getTime().getHours()
+					: calendar.getTime().getHours();
+			this.minute = (calendar.getTime().getMinutes() > 9) ? calendar.getTime().getMinutes()
+					: calendar.getTime().getMinutes();
+			this.hour = (calendar.getTime().getSeconds() > 9) ? calendar.getTime().getSeconds()
+					: calendar.getTime().getSeconds();
+			
+			meansurementsChange();
+		
+			Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+}

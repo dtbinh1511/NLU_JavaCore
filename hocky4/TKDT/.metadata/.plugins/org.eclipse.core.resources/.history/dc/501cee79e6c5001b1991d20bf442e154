@@ -1,0 +1,21 @@
+package watch;
+
+import java.awt.Graphics;
+
+import javax.swing.JPanel;
+
+@SuppressWarnings("serial")
+public class DigitalPanel extends JPanel {
+	private Watch w = new Watch();
+
+	public DigitalPanel() {
+
+	}
+
+	public void paintComponent(Graphics g) {
+		super.paintComponent(g);
+		w.setMeansurements();
+		g.drawString(w.getHour() + ":" + w.getMinute() + ":" + w.getSecond(), 20, 30);
+	}
+
+}

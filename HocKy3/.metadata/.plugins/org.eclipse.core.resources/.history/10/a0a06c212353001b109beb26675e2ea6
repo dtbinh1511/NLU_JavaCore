@@ -1,0 +1,17 @@
+package Set;
+
+import java.util.*;
+
+public class Test {
+	public static void main(String[] args) {
+		
+//		System.out.println(s);
+		System.out.println(myt(2, 3));
+	}
+
+	public static int myt(int a, int b) {
+		if (b == 1)
+			return a;
+		return a + myt(a, b - 1);
+	}
+}

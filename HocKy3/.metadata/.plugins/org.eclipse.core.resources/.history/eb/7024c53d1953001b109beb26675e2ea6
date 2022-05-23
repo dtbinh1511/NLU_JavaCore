@@ -1,0 +1,23 @@
+package Set;
+
+import java.util.*;
+
+public class Test {
+	public static void main(String[] args) {
+		Map<Integer, String> m = new LinkedHashMap<Integer, String>();
+		m.put(11, "aa");
+		m.put(null, null);
+		m.put(11, "bb");
+		m.put(null, "cc");
+		System.out.println(m);
+		
+		Map<Integer, String> hashTable = new HashMap<Integer, String>();
+		hashTable.put(11, "a");
+		hashTable.put(null, "c");
+		hashTable.put(null, null);
+		System.out.println(hashTable);
+	}
+
+	
+
+}

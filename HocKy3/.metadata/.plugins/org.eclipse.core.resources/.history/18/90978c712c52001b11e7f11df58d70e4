@@ -1,0 +1,20 @@
+package CuoiKy;
+
+import java.util.Arrays;
+
+public class Test {
+	public static void main(String[] args) {
+		Integer [] oranges, apple;
+		oranges = new Integer [] {23, 55,877};
+		apple = oranges;
+		apple[0]++;
+		System.out.println(Arrays.deepToString(oranges));
+		System.out.println(Arrays.deepToString(apple));
+		
+	}
+
+	public static void m(int number, int[] numbers) {
+		number = 1001;
+		numbers[0] = 5555;
+	}
+}

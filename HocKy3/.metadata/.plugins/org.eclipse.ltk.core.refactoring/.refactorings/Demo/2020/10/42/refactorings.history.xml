@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Arrays_2D.Add_Matrix&apos; to &apos;Matrix&apos;&#x0D;&#x0A;- Original project: &apos;Demo&apos;&#x0D;&#x0A;- Original element: &apos;Arrays_2D.Add_Matrix&apos;&#x0D;&#x0A;- Renamed element: &apos;Arrays_2D.Matrix&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Add_Matrix&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Arrays_2D{Add_Matrix.java[Add_Matrix" matchStrategy="1" name="Matrix" qualified="false" references="true" similarDeclarations="false" stamp="1602424247544" textual="false" version="1.0"/>
+</session>

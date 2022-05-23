@@ -1,0 +1,10 @@
+package Set;
+
+import java.util.*;
+
+public class Test {
+	public void addString(List< String>list) {
+	list.add("foo");
+}
+
+}

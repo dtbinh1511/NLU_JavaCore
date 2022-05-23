@@ -1,0 +1,9 @@
+package T.Du;
+
+public class Publication {
+private String title;
+private String journal;
+private int pubYear;
+private int grade;
+
+}

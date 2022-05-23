@@ -1,0 +1,7 @@
+package watch;
+
+import java.util.Observable;
+
+public class Watch extends Observable {
+
+}

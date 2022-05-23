@@ -1,0 +1,32 @@
+package weather_station2;
+
+public class StatisticDisplay implements Observer, DisplayElement {
+
+	private float tempSum = 0f;
+	private float tempMax = 0f;
+	private float tempMin = 200;
+	private int numReadings;
+	private Subject weatherData;
+
+	public StatisticDisplay(Subject weatherData) {
+		super();
+		this.weatherData = weatherData;
+		weatherData.registerObserver(this);
+	}
+
+	public void update(float temp, float humidity, float pressure) {
+		tempSum += temp;
+		numReadings++;
+		if (temp > tempMax)
+			tempMax = temp;
+		if (temp < tempMin)
+			tempMin = temp;
+
+		statement();
+
+	}
+
+	public void statement() {
+		System.out.println("11Avg/Max/Min temperature: " + tempSum / numReadings + "/" + tempMax + "/" + tempMin);
+	}
+}

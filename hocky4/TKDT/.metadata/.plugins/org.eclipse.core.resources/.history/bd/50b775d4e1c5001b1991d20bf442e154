@@ -1,0 +1,28 @@
+package watch;
+
+import java.awt.Graphics2D;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class Frame extends JFrame {
+
+	public Frame() {
+		setSize(160, 60);
+		addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {
+				System.exit(1);
+			}
+		});
+		setVisible(true);
+	}
+
+	public static void main(String[] args) {
+		Frame frame = new Frame();
+
+	}
+
+	public void draw(Graphics2D g) {
+		g.drawString(watch.getHour() + ":" + watch.getMinute() + ":" + watch.getSecond(), 20, 20);
+	}
+}

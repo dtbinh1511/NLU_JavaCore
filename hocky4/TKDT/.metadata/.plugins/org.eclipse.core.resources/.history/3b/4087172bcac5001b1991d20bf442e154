@@ -1,0 +1,7 @@
+package weather_station1;
+
+public class CurrentConditionDisplay {
+	private int temperature;
+	private int humidity;
+	private int pressure;
+}

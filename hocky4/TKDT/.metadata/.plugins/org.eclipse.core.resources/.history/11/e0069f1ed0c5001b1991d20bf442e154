@@ -1,0 +1,9 @@
+package weather_station2;
+
+public interface Subject {
+	public void registerObserver();
+
+	public void unregisterObserver();
+
+	public void notifyObservers();
+}

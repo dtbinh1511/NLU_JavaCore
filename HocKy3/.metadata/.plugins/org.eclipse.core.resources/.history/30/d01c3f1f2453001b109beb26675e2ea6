@@ -1,0 +1,15 @@
+package Set;
+
+import java.util.*;
+
+public class Test {
+	public static void main(String[] args) {
+		String a = "a", b = "b", zero = "";
+		Integer c = new Integer(0);
+		System.out.println(!((a + b) + c).equals(a + (b + c)) + " " 
+				+ (c + zero).equals(zero + c) + " "
+				+ (a + null).equals(a + "null"));
+	}
+
+	
+}

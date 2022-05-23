@@ -1,0 +1,26 @@
+package weather_station1;
+
+public class StatisticDisplay {
+
+	private float tempCurrent;
+	private float tempMax = 0;
+	private float tempMin = 200;
+	private WeatherData weatherData;
+
+	public StatisticDisplay(WeatherData weatherData) {
+		this.weatherData = weatherData;
+//		weatherData.setStatisticDisplay(this);
+	}
+
+	public void update(float temp, float humidity, float pressure) {
+		this.tempCurrent = temp;
+		if (tempCurrent > tempMax)
+			tempMax = tempCurrent;
+		if (tempCurrent < tempMin)
+			tempMin = tempCurrent;
+
+		statement();
+
+	}
+
+}

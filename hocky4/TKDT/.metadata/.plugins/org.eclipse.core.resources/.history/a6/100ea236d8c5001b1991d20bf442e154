@@ -1,0 +1,17 @@
+package watch;
+
+import java.awt.HeadlessException;
+
+import javax.swing.*;
+
+public class Frame extends JFrame {
+	private JLabel clockLable;
+
+	public Frame() {
+		clockLable = new JLabel();
+		clockLable.setBounds(20,20,80,20);
+		add(clockLable);
+		setSize(200,200);
+	}
+
+}

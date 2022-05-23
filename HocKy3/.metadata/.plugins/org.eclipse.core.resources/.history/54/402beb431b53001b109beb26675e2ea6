@@ -1,0 +1,27 @@
+package Set;
+
+import java.util.*;
+
+public class Test {
+	public static void main(String[] args) {
+		Stack<String> s = new Stack<String>();
+		s.push("Dan");
+		s.push("Jan");
+		s.push("Fran");
+		s.push("nan");
+		s.push("Stan");
+
+		while (s.peek().length() % 2 == 0) {
+			String str = s.pop();
+			System.out.print(s.peek());
+		}
+	}
+
+	public static int f2(int n, int result) {
+		if (n == 0)
+			return 0;
+		else
+			return f2(n - 1, n + result);
+	}
+
+}

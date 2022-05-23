@@ -1,0 +1,16 @@
+package watch;
+
+import java.awt.Graphics2D;
+
+import javax.swing.JPanel;
+
+@SuppressWarnings("serial")
+public class DigitalPanel extends JPanel {
+	private Watch w;
+
+	public DigitalPanel() {
+//		w = new Watch();
+	}
+
+
+}

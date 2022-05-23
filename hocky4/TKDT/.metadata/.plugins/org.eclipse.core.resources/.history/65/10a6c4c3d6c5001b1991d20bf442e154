@@ -1,0 +1,30 @@
+package watch;
+
+import java.util.Observable;
+import java.util.Observer;
+
+public class Analog implements Observer {
+	private int second;
+	private int minute;
+	private int hour;
+	private Observable observable;
+
+	public Analog(Observable observable) {
+		super();
+		this.observable = observable;
+		observable.addObserver(this);
+	}
+
+	@Override
+	public void update(Observable o, Object arg) {
+		if (o instanceof Watch) {
+			Watch watch = (Watch) o;
+			this.second = watch.getSecond();
+			this.minute = watch.getMinute();
+			this.hour = watch.getHour();
+
+			display();
+		}
+	}
+
+}

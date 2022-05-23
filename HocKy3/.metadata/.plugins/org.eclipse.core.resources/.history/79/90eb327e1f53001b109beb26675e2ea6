@@ -1,0 +1,16 @@
+package Set;
+
+import java.util.*;
+
+public class Test {
+	public static void main(String[] args) {
+		ArrayList o1 = new ArrayList<>();
+		o1.add("A");
+		o1.add("B");
+		ArrayList o2 = new ArrayList<>();
+		o2.add("A");
+		o2.add(1, "B");
+		System.out.println(o1.equals(o2));
+	}
+
+}

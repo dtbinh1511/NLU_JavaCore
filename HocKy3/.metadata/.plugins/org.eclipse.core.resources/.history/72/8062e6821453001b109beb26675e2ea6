@@ -1,0 +1,14 @@
+package Set;
+
+import java.util.*;
+
+public class Test {
+	public static void main(String[] args) {
+		Map<Integer, String> hashTable = new Hashtable<Integer, String>();
+		hashTable.put(11, "a");
+		hashTable.put(null, "c");
+//		hashTable.put(null, null);
+		System.out.println(hashTable);
+	}
+
+}

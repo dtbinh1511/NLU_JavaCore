@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=FactoryPattern/src&lt;pizzaAF{PizzaIngredientFactory.java[PizzaIngredientFactory" modifiers="513" timestamp="1620877522433"/>
+    <typeInfo handle="=FactoryPattern/src&lt;pizzaAF{Pizza.java[Pizza" modifiers="1025" timestamp="1620878943119"/>
+    <typeInfo handle="=Management/src&lt;electric_management{Customer.java[Customer" modifiers="1025" timestamp="1622631017819"/>
+    <typeInfo handle="=Management/src&lt;electric_management{Reading.java[Reading" modifiers="1025" timestamp="1622629887764"/>
+    <typeInfo handle="=Management/src&lt;employee_management{Staff.java[Staff" modifiers="1025" timestamp="1622730128470"/>
+    <typeInfo handle="=Management/src&lt;travel_management{Tour.java[Tour" modifiers="1025" timestamp="1622777524066"/>
+    <typeInfo handle="=StrategyPattern/src&lt;strategypattern_simduck{FlyBehavior.java[FlyBehavior" modifiers="513" timestamp="1622903216733"/>
+    <typeInfo handle="=StrategyPattern/src&lt;strategypattern_simduck{QuackBehavior.java[QuackBehavior" modifiers="513" timestamp="1622903234662"/>
+    <typeInfo handle="=StrategyPattern/src&lt;strategypattern_simduck{Duck.java[Duck" modifiers="1025" timestamp="1622903239932"/>
+    <typeInfo handle="=StrategyPattern/src&lt;video_rental{PriceStrategy.java[PriceStrategy" modifiers="513" timestamp="1622904028338"/>
+    <typeInfo handle="=DecoratorPattern/src&lt;decoratorpattern_beverage{Beverage.java[Beverage" modifiers="1025" timestamp="1622908152984"/>
+    <typeInfo handle="=DecoratorPattern/src&lt;decoratorpattern_beverage{CondimentDecorator.java[CondimentDecorator" modifiers="1025" timestamp="1622908029304"/>
+    <typeInfo handle="=AdapterPattern/src&lt;duck_turkey{Duck.java[Duck" modifiers="513" timestamp="1623056683427"/>
+    <typeInfo handle="=AdapterPattern/src&lt;duck_turkey{Turkey.java[Turkey" modifiers="513" timestamp="1623056744159"/>
+    <typeInfo handle="=AdapterPattern/src&lt;button_light{Switchable.java[Switchable" modifiers="513" timestamp="1623057451958"/>
+    <typeInfo handle="=TemplateMethodPattern/src&lt;beverage{CoffeinBeverage.java[CoffeinBeverage" modifiers="1025" timestamp="1623665737128"/>
+</typeInfoHistroy>

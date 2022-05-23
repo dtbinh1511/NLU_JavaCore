@@ -1,0 +1,26 @@
+package weather_station2;
+
+public class CurrentConditionDisplay {
+	private float temperature;
+	private float humidity;
+	private float pressure;
+	private WeatherData weatherData;
+
+	public CurrentConditionDisplay(WeatherData weatherData) {
+		super();
+		this.weatherData = weatherData;
+		weatherData.setConditionDisplay(this);
+	}
+
+	public void update(float temp, float humidity2, float pressure2) {
+		this.temperature = temp;
+		this.humidity = humidity2;
+		this.pressure = pressure2;
+		statement();
+	}
+
+	public void statement() {
+		System.out.println("Current conditions: " + temperature + "F degrees and " + humidity + "% humidity and "
+				+ pressure + "% pressure");
+	}
+}

@@ -1,0 +1,50 @@
+package Set;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+import java.util.Set;
+import java.util.Stack;
+import java.util.TreeSet;
+
+public class Test {
+	public static void main(String[] args) {
+		TreeSet<Integer> s = new TreeSet<Integer>();
+		TreeSet<Integer> subs = new TreeSet<Integer>();
+		for (int i = 606; i < 613; i++)
+			if (i % 2 == 0)
+				s.add(i);
+		subs = (TreeSet) s.subSet(608, true, 611, true);
+		s.add(609);
+//		System.out.println(s + " " + subs);
+
+//		for (Object integer : get()) {
+//			System.out.print(integer + ", ");
+//		}
+		List list = new ArrayList();
+		list.add("1");
+		list.add("2");
+		list.add("3");
+		for (Object object : reverse(list)) {
+			System.out.println(object+" ");
+		}
+
+	}
+
+	public static Collection get() {
+		Collection sorted = new LinkedList();
+		sorted.add("B");
+		sorted.add("C");
+		sorted.add("A");
+		return sorted;
+	}
+	public static Iterator reverse(List list) {
+		Collections.reverse(list);
+		return list.iterator();
+	}
+}

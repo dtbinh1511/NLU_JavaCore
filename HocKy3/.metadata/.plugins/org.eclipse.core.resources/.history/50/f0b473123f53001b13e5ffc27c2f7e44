@@ -1,0 +1,50 @@
+package T.Du;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class Student {
+	private String id;
+	private String name;
+	private Date brithday;
+	private int year;
+	private List<Publication> pubs;
+
+	public Student(String id, String name, Date brithday, int year, List<Publication> pubs) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.brithday = brithday;
+		this.year = year;
+		this.pubs = pubs;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + ", brithday=" + brithday + ", year=" + year + ", pubs=" + pubs
+				+ "]";
+	}
+
+	public Publication maxGradePublication() {
+		Publication publication = null;
+		for (int i = 0; i < pubs.size(-1); i++) {
+			if (pubs.get(i).getGrade() > pubs.get(i + 1).getGrade())
+				publication = pubs.get(i);
+			publication = pubs.get(i + 1);
+		}
+		return publication;
+	}
+
+	public static void main(String[] args) {
+		Publication p1 = new Publication("Cô bé", "A", 2010, 7);
+		Publication p2 = new Publication("Cô bé", "A", 2010, 9);
+
+		ArrayList<Publication> pubs = new ArrayList<>();
+		pubs.add(p1);
+		pubs.add(p2);
+
+		Student st = new Student("1", "A", null, 2001, pubs);
+		System.out.println(st.maxGradePublication());
+	}
+}

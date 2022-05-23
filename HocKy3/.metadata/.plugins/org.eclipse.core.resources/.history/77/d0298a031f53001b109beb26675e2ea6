@@ -1,0 +1,18 @@
+package Set;
+
+import java.util.*;
+
+public class Test {
+	public static void main(String[] args) {
+		ArrayList<String> s = new ArrayList<>();
+		s.add("Dog");
+		s.add("Monkey");
+		s.add("Cat");
+		s.add("Lion");
+		Collections.sort(s);
+		for (String string : s) {
+			System.out.print(string + " ");
+		}
+	}
+
+}

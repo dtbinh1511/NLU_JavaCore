@@ -1,0 +1,14 @@
+package weather_station1;
+
+public class CurrentConditionDisplay {
+	private int temperature;
+	private int humidity;
+	private int pressure;
+	private WeatherData weatherData;
+
+	public CurrentConditionDisplay(WeatherData weatherData) {
+		super();
+		this.weatherData = weatherData;
+	}
+
+}

@@ -1,0 +1,18 @@
+package Paint;
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+public class Rectangle extends Element2D{
+
+	public Rectangle(int x1, int y1, int width, int height, Color color) {
+		super(x1, y1, width, height, color);
+	}
+
+	@Override
+	public void draw(Graphics g) {
+		g.setColor(getColor());
+		g.drawRect(x1, y1, getWidth(), getHeight());
+	}
+
+}

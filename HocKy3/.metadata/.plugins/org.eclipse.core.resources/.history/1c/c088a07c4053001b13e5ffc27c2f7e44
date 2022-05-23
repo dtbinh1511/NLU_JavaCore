@@ -1,0 +1,22 @@
+package T.Du;
+
+import java.util.List;
+
+public class Faculty {
+	private String name;
+	private int establishedYear;
+	private List<Student> students;
+
+	public Faculty(String name, int establishedYear, List<Student> students) {
+		super();
+		this.name = name;
+		this.establishedYear = establishedYear;
+		this.students = students;
+	}
+
+	@Override
+	public String toString() {
+		return "Faculty [name=" + name + ", establishedYear=" + establishedYear + ", students=" + students + "]";
+	}
+
+}

@@ -1,0 +1,15 @@
+package weather_station3;
+
+public class Test {
+	public static void main(String[] args) {
+		WeatherData weatherData = new WeatherData();
+
+		CurrentConditionDisplay currentConditionDisplay = new CurrentConditionDisplay(weatherData);
+		StatisticDisplay statisticDisplay = new StatisticDisplay(weatherData);
+		ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
+
+		weatherData.setMeansurements(23, 78, 77);
+		weatherData.setMeansurements(30, 78, 77);
+		weatherData.setMeansurements(19, 78, 77);
+	}
+}

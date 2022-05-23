@@ -1,0 +1,22 @@
+package watch;
+
+import javax.swing.JFrame;
+
+public class WatchFrame extends JFrame {
+
+	public WatchFrame() {
+		add(new DigitalPanel());
+		setFrame();
+	}
+
+	public static void main(String[] args) {
+		WatchFrame w = new WatchFrame();
+	}
+
+	public void setFrame() {
+		setSize(400, 60);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
+		setVisible(true);
+	}
+}

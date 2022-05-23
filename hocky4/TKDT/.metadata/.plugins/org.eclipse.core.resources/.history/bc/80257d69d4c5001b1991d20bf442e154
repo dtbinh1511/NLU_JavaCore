@@ -1,0 +1,34 @@
+package weather_station3;
+
+import java.util.Observable;
+import java.util.Observer;
+
+public class CurrentConditionDisplay implements Observer, DisplayElement {
+	private float temperature;
+	private float humidity;
+	private float pressure;
+	private Observable weatherData;
+
+	public CurrentConditionDisplay(Observable weatherData) {
+		super();
+		this.weatherData = weatherData;
+		weatherData.addObserver(this);
+	}
+
+	public void update(float temp, float humidity2, float pressure2) {
+		this.temperature = temp;
+		this.humidity = humidity2;
+		this.pressure = pressure2;
+		statement();
+	}
+
+	public void statement() {
+		System.out.println("Current conditions: " + temperature + "F degrees and " + humidity + "% humidity and "
+				+ pressure + "% pressure");
+	}
+
+	@Override
+	public void update(Observable o, Object arg) {
+		o.
+	}
+}

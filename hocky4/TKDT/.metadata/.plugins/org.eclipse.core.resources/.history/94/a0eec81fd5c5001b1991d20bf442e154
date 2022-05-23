@@ -1,0 +1,37 @@
+package weather_station3;
+
+import java.util.Observable;
+import java.util.Observer;
+
+public class StatisticDisplay implements Observer, DisplayElement {
+
+	private float tempSum = 0f;
+	private float tempMax = 0f;
+	private float tempMin = 200;
+	private int numReadings;
+	private Observable weatherData;
+
+	public StatisticDisplay(Observable weatherData) {
+		this.weatherData = weatherData;
+		weatherData.addObserver(this);
+	}
+
+	public void statement() {
+		System.out.println("Avg/Max/Min temperature: " + tempSum / numReadings + "/" + tempMax + "/" + tempMin);
+	}
+
+	@Override
+	public void update(Observable o, Object arg) {
+		if (o instanceof WeatherData) {
+			WeatherData weatherData = (WeatherData) o;
+			tempSum += weatherData.getTemperature();
+			numReadings++;
+			if (weatherData.getTemperature() > tempMax)
+				tempMax = weatherData.getTemperature();
+			if (weatherData.getTemperature() < tempMin)
+				tempMin = weatherData.getTemperature();
+
+			statement();
+		}
+	}
+}

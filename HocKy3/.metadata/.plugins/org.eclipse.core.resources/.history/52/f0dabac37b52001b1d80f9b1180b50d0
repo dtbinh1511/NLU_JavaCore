@@ -1,0 +1,27 @@
+package List;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.ListIterator;
+
+public class Test {
+	public static void main(String[] args) {
+		ArrayList<String> listLanguages = new ArrayList();
+
+		// them phan tu vao array list
+		listLanguages.add("Java");
+		listLanguages.add("Python");
+		listLanguages.add("PHP");
+		listLanguages.add(".NET");
+		listLanguages.add("C");
+		listLanguages.add("C++");
+        
+		ListIterator<String> litr = listLanguages.listIterator();
+		while (litr.hasNext()) {
+			Object element = litr.next();
+			litr.add("C#");
+			System.out.println(element);
+		}
+		
+	    
+}

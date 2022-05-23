@@ -1,0 +1,19 @@
+package Set;
+
+import java.util.*;
+
+public class Test {
+	public static void main(String[] args) {
+		Stack s = new Stack<>();
+		String text = "ABCDEFG";
+		char[] a = text.toCharArray();
+		for (int i = 0; i < a.length; i++) {
+			if (i % 2 == 0)
+				s.push(a[i]);
+			else
+				s.pop();
+		}
+		System.out.println(s);
+	}
+
+}

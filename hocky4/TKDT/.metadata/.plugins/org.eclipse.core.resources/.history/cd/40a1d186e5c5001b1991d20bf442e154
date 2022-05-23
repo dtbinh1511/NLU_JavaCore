@@ -1,0 +1,7 @@
+package watch;
+
+import javax.swing.JFrame;
+
+public class WatchFrame extends JFrame {
+
+}

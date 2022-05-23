@@ -1,0 +1,35 @@
+package Set;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+import java.util.Stack;
+import java.util.TreeSet;
+
+public class Test {
+	public static void main(String[] args) {
+		Stack<Integer> stack = new Stack<>();
+		stack.push(5);
+		stack.push(1);
+		stack.peek();
+		stack.pop();
+		stack.push(4);
+		stack.push(10);
+		stack.push(7);
+		stack.push(2);
+		stack.push(10);
+
+		System.out.println(max(stack));
+
+		
+	}
+
+	public static int max(Stack<Integer> s) {
+		int maxValue = s.pop();
+		while (!s.isEmpty()) {
+			int next = s.pop();
+			maxValue = Math.max(maxValue, next);
+		}
+		return maxValue;
+	}
+}

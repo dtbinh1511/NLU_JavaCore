@@ -1,0 +1,26 @@
+package watch;
+
+import java.awt.Graphics2D;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class WatchFrame {
+
+	public WatchFrame() {
+		setSize(160, 60);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setVisible(true);
+	}
+
+	public static void main(String[] args) {
+		WatchFrame frame = new WatchFrame();
+
+		JFrame f = new JFrame();
+		f.add(frame);
+	}
+
+	public void draw(Graphics2D g) {
+		g.drawString("Hello World", 40, 40);
+	}
+
+}

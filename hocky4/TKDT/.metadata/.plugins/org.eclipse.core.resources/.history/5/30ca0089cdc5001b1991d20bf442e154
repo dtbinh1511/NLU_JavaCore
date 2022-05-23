@@ -1,0 +1,19 @@
+package weather_station1;
+
+public class ForecastDisplay {
+	private float pressureCurrent;
+	private WeatherData weatherData;
+	
+	
+	public ForecastDisplay(WeatherData weatherData) {
+		super();
+		this.weatherData = weatherData;
+//		weatherData.setForecastDisplay(this);
+	}
+
+
+	public void update(float temp, float humidity, float pressure) {
+		
+	}
+
+}

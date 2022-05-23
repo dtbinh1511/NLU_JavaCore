@@ -1,0 +1,17 @@
+package CuoiKy;
+
+import java.util.Arrays;
+
+public class Test {
+	public static void main(String[] args) {
+		Object x[] = new String[1];
+		x[0] = "DH19DT";
+		Integer y = (Integer) x[0];
+		System.out.println(y);
+	}
+
+	public static void m(int number, int[] numbers) {
+		number = 1001;
+		numbers[0] = 5555;
+	}
+}

@@ -1,0 +1,13 @@
+package weather_station1;
+
+public class StatisticDisplay {
+
+	private float tempCurrent;
+	private float tempMax;
+	private float tempMin;
+
+	public void update(float temp, float humidity, float pressure) {
+
+	}
+
+}

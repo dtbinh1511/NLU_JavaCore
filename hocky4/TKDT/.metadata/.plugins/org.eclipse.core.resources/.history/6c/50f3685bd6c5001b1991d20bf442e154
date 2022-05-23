@@ -1,0 +1,17 @@
+package watch;
+
+import java.util.Observable;
+import java.util.Observer;
+
+public class Analog implements Observer {
+	private int second;
+	private int minute;
+	private int hour;
+	private Observable observable;
+
+	public Analog(Observable observable) {
+		super();
+		this.observable = observable;
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;&apos; to &apos;Store.getOrderList()&apos;&#x0D;&#x0A;- Original project: &apos;QuanLyBanHang&apos;&#x0D;&#x0A;- Destination element: &apos;Store.getOrderList()&apos;&#x0D;&#x0A;- Original element: &apos;Store.getOrderList()&apos;" description="Copy method" destination="/src&lt;{Store.java[Store~getOrderList" element1="/src&lt;{Store.java[Store~getOrderList" flags="589830" id="org.eclipse.jdt.ui.copy" members="1" policy="org.eclipse.jdt.ui.copyMembers" stamp="1608467858695" version="1.0"/>
+</session>

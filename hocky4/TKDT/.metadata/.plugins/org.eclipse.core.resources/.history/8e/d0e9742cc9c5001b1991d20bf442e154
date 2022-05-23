@@ -1,0 +1,10 @@
+package weather_station1;
+
+public class WeatherData {
+	private CurrentConditionDisplay conditionDisplay;
+	private StatisticDisplay statisticDisplay;
+	private ForecastDisplay forecastDisplay;
+	private int temperature;
+	private int humidity;
+	private int pressure;
+}

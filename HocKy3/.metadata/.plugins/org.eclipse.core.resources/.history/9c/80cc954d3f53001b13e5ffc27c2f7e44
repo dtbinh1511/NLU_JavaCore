@@ -1,0 +1,27 @@
+package T.Du;
+
+public class Publication {
+	private String title;
+	private String journal;
+	private int pubYear;
+	private int grade;
+
+	public Publication(String title, String journal, int pubYear, int grade) {
+		super();
+		this.title = title;
+		this.journal = journal;
+		this.pubYear = pubYear;
+		this.grade = grade;
+	}
+
+	@Override
+	public String toString() {
+		return "Publication [title=" + title + ", journal=" + journal + ", pubYear=" + pubYear + ", grade=" + grade
+				+ "]";
+	}
+
+	public int getGrade() {
+		return grade;
+	}
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\java\hocky4\LTDT\.metadata\.plugins\org.eclipse.jdt.core
+3240673035.index
+3291002090.index
+2452343523.index

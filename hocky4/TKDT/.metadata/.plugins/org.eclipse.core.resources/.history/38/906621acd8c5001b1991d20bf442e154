@@ -1,0 +1,42 @@
+package watch;
+
+import java.awt.event.*;
+import java.util.Calendar;
+import javax.swing.*;
+
+public class Frame extends JFrame {
+	private JLabel clockLable;
+
+	public Frame() {
+		clockLable = new JLabel();
+		clockLable.setBounds(20, 20, 80, 20);
+		add(clockLable);
+		setSize(80, 30);
+		addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {
+				System.exit(1);
+			}
+		});
+		setVisible(true);
+		try {
+			while (true) {
+				Calendar calendar = Calendar.getInstance();
+				String hour = (calendar.getTime().getHours() > 9) ? "" + calendar.getTime().getHours() + ""
+						: "0" + calendar.getTime().getHours();
+				String minute = (calendar.getTime().getMinutes() > 9) ? "" + calendar.getTime().getMinutes() + ""
+						: "0" + calendar.getTime().getMinutes();
+				String second = (calendar.getTime().getSeconds() > 9) ? "" + calendar.getTime().getSeconds() + ""
+						: "0" + calendar.getTime().getSeconds();
+				clockLable.setText(hour + ":" + minute + ":" + second);
+				Thread.sleep(1000);
+			}
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+		Frame frame = new Frame();
+	}
+}

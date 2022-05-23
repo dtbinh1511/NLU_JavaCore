@@ -1,0 +1,551 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MultipplyMatrix",
+            "request": "launch",
+            "mainClass": "Bai2_Part3.MultipplyMatrix",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MatrixInverse",
+            "request": "launch",
+            "mainClass": "Bai2_Part3.MatrixInverse",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxRound",
+            "request": "launch",
+            "mainClass": "Bai2_Part3.MaxRound",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InsetValueIntoArray",
+            "request": "launch",
+            "mainClass": "Bai2_Part3.InsetValueIntoArray",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InsertArray",
+            "request": "launch",
+            "mainClass": "Bai2_Part3.InsertArray",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArrangeNumber",
+            "request": "launch",
+            "mainClass": "Bai2_Part3.ArrangeNumber",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindNumberNearest",
+            "request": "launch",
+            "mainClass": "Bai2_Part3.FindNumberNearest",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberAppearsMostInArray",
+            "request": "launch",
+            "mainClass": "Bai2_Part3.NumberAppearsMostInArray",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SymmetricalArray",
+            "request": "launch",
+            "mainClass": "Bai2_Part3.SymmetricalArray",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberSquare",
+            "request": "launch",
+            "mainClass": "Bai1_Part3.NumberSquare",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ListReversible",
+            "request": "launch",
+            "mainClass": "Bai1_Part3.ListReversible",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Fibonacci",
+            "request": "launch",
+            "mainClass": "Bai1_Part3.Fibonacci",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ListPrimeNumber",
+            "request": "launch",
+            "mainClass": "Bai1_Part3.ListPrimeNumber",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ParseIntoPrimeNumbers",
+            "request": "launch",
+            "mainClass": "Bai1_Part3.ParseIntoPrimeNumbers",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TotalNumbers",
+            "request": "launch",
+            "mainClass": "Bai1_Part3.TotalNumbers",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ListDivisorOfNumber",
+            "request": "launch",
+            "mainClass": "Bai1_Part3.ListDivisorOfNumber",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TotalInverse",
+            "request": "launch",
+            "mainClass": "Bai1_Part3.TotalInverse",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SumParity",
+            "request": "launch",
+            "mainClass": "Bai1_Part3.SumParity",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RandomNumber",
+            "request": "launch",
+            "mainClass": "Bai1_Part3.RandomNumber",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CreateMultiplicationTable",
+            "request": "launch",
+            "mainClass": "Bai1_Part3.CreateMultiplicationTable",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DrawSymmetricalTriangle",
+            "request": "launch",
+            "mainClass": "Bai1_Part3.DrawSymmetricalTriangle",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DrawRectangleEmtyWithStars",
+            "request": "launch",
+            "mainClass": "Bai1_Part3.DrawRectangleEmtyWithStars",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DrawRectangleWithStars",
+            "request": "launch",
+            "mainClass": "Bai1_Part3.DrawRectangleWithStars",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex9MultipplyMatrix",
+            "request": "launch",
+            "mainClass": "Bai2_Part2.Ex9MultipplyMatrix",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex8MatrixTransposition",
+            "request": "launch",
+            "mainClass": "Bai2_Part2.Ex8MatrixTransposition",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex7MaxRound",
+            "request": "launch",
+            "mainClass": "Bai2_Part2.Ex7MaxRound",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex6InsertANumber",
+            "request": "launch",
+            "mainClass": "Bai2_Part2.Ex6InsertANumber",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex5InsertArray",
+            "request": "launch",
+            "mainClass": "Bai2_Part2.Ex5InsertArray",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex4ArrangeArray",
+            "request": "launch",
+            "mainClass": "Bai2_Part2.Ex4ArrangeArray",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex3FindElementNearest",
+            "request": "launch",
+            "mainClass": "Bai2_Part2.Ex3FindElementNearest",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex2FindAppearTheMostArray",
+            "request": "launch",
+            "mainClass": "Bai2_Part2.Ex2FindAppearTheMostArray",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex1SymmetricalArray",
+            "request": "launch",
+            "mainClass": "Bai2_Part2.Ex1SymmetricalArray",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex14ListSqureNumber",
+            "request": "launch",
+            "mainClass": "Bai1_Part2.Ex14ListSqureNumber",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex13ListReversibleNumbers",
+            "request": "launch",
+            "mainClass": "Bai1_Part2.Ex13ListReversibleNumbers",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex12SequenceOfNumbersFibonacci",
+            "request": "launch",
+            "mainClass": "Bai1_Part2.Ex12SequenceOfNumbersFibonacci",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex10ListPrimeNumbersFirst",
+            "request": "launch",
+            "mainClass": "Bai1_Part2.Ex10ListPrimeNumbersFirst",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex10ParsingIntoPrimeNumbers",
+            "request": "launch",
+            "mainClass": "Bai1_Part2.Ex10ParsingIntoPrimeNumbers",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex9SumOfDigits",
+            "request": "launch",
+            "mainClass": "Bai1_Part2.Ex9SumOfDigits",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex8ListDivisor",
+            "request": "launch",
+            "mainClass": "Bai1_Part2.Ex8ListDivisor",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex7TotalInverse",
+            "request": "launch",
+            "mainClass": "Bai1_Part2.Ex7TotalInverse",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex6TotalParity",
+            "request": "launch",
+            "mainClass": "Bai1_Part2.Ex6TotalParity",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex5SinhSoNgauNhien",
+            "request": "launch",
+            "mainClass": "Bai1.Ex5SinhSoNgauNhien",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex5RandomNumberGenerator",
+            "request": "launch",
+            "mainClass": "Bai1_Part2.Ex5RandomNumberGenerator",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex4MultiplicationTable",
+            "request": "launch",
+            "mainClass": "Bai1_Part2.Ex4MultiplicationTable",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex3DrawTheTriangleSymmetrically",
+            "request": "launch",
+            "mainClass": "Bai1_Part2.Ex3DrawTheTriangleSymmetrically",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex2DrawEmptyRectanglesWithStars",
+            "request": "launch",
+            "mainClass": "Bai1_Part2.Ex2DrawEmptyRectanglesWithStars",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex1DrawRectanglesWithStars",
+            "request": "launch",
+            "mainClass": "Bai1_Part2.Ex1DrawRectanglesWithStars",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex1DrawRectanglesWithStars",
+            "request": "launch",
+            "mainClass": "Ex1DrawRectanglesWithStars",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex17ReverseNameOrder",
+            "request": "launch",
+            "mainClass": "Bai2.Ex17ReverseNameOrder",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex16TimTuDaiNhat",
+            "request": "launch",
+            "mainClass": "Bai2.Ex16TimTuDaiNhat",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex12ChuyeDoiCoSo",
+            "request": "launch",
+            "mainClass": "Bai2.Ex12ChuyeDoiCoSo",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex14ThaoTacVoiSoNguyenLon",
+            "request": "launch",
+            "mainClass": "Bai2.Ex14ThaoTacVoiSoNguyenLon",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex13CheckXauThuanNghich",
+            "request": "launch",
+            "mainClass": "Bai2.Ex13CheckXauThuanNghich",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex9Tich2Matran",
+            "request": "launch",
+            "mainClass": "Bai2.Ex9Tich2Matran",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex8MaTranChuyenVi",
+            "request": "launch",
+            "mainClass": "Bai2.Ex8MaTranChuyenVi",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex6ChenGiaTriVaoMang",
+            "request": "launch",
+            "mainClass": "Bai2.Ex6ChenGiaTriVaoMang",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex5ChenMang",
+            "request": "launch",
+            "mainClass": "Bai2.Ex5ChenMang",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex4ArrangeArrayRandom",
+            "request": "launch",
+            "mainClass": "Bai2.Ex4ArrangeArrayRandom",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex3FindPrimeNearestX",
+            "request": "launch",
+            "mainClass": "Bai2.Ex3FindPrimeNearestX",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex2TimPhanTuXuatHienNhieuNhat",
+            "request": "launch",
+            "mainClass": "Bai2.Ex2TimPhanTuXuatHienNhieuNhat",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex1KiemTraMangDoiXung",
+            "request": "launch",
+            "mainClass": "Bai2.Ex1KiemTraMangDoiXung",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex14SoChinhPhuong",
+            "request": "launch",
+            "mainClass": "Bai1.Ex14SoChinhPhuong",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex13TimSoThuanNghich",
+            "request": "launch",
+            "mainClass": "Bai1.Ex13TimSoThuanNghich",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex11DayFibonacci",
+            "request": "launch",
+            "mainClass": "Bai1.Ex11DayFibonacci",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex10PhanTichThanhSoNgTo",
+            "request": "launch",
+            "mainClass": "Bai1.Ex10PhanTichThanhSoNgTo",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex9TongCacChuSo",
+            "request": "launch",
+            "mainClass": "Ex9TongCacChuSo",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex8LietKeSoUoc",
+            "request": "launch",
+            "mainClass": "Ex8LietKeSoUoc",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex7TongNghichDao",
+            "request": "launch",
+            "mainClass": "Ex7TongNghichDao",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex6TongChanLe",
+            "request": "launch",
+            "mainClass": "Ex6TongChanLe",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex5SinhSoNgauNhien",
+            "request": "launch",
+            "mainClass": "Ex5SinhSoNgauNhien",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex4BangCuuChuong",
+            "request": "launch",
+            "mainClass": "Ex4BangCuuChuong",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex3VeTamGiacDoiXung",
+            "request": "launch",
+            "mainClass": "Ex3VeTamGiacDoiXung",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex2VeHCNRongBangSao",
+            "request": "launch",
+            "mainClass": "Ex2VeHCNRongBangSao",
+            "projectName": "BaiTap"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "extensionHost",
+            "request": "launch",
+            "name": "Launch Extension",
+            "runtimeExecutable": "${execPath}",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex1VeHCNBangSao<BaiTap>",
+            "request": "launch",
+            "mainClass": "Ex1VeHCNBangSao",
+            "projectName": "BaiTap"
+        }
+    ]
+}

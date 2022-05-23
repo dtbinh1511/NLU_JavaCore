@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;ArrayLists&apos; to &apos;ArrayLists_CoQuynh&apos;&#x0D;&#x0A;- Original project: &apos;Lab7_8_List&apos;&#x0D;&#x0A;- Original element: &apos;Lab7_8_List/src/ArrayLists&apos;&#x0D;&#x0A;- Renamed element: &apos;Lab7_8_List/src/ArrayLists_CoQuynh&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ArrayLists&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;ArrayLists" name="ArrayLists_CoQuynh" qualified="false" references="true" stamp="1606914235807" textual="false" version="1.0"/>
+</session>

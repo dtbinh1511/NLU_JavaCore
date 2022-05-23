@@ -1,0 +1,11 @@
+INDEX VERSION 1.131+E:\java\hocky4\Design_Pattern\.metadata\.plugins\org.eclipse.jdt.core
+608017653.index
+3918391753.index
+3332962069.index
+1642175237.index
+658017227.index
+1238471083.index
+2841847803.index
+2929509558.index
+3352537029.index
+1059524232.index

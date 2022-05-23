@@ -1,0 +1,20 @@
+package watch;
+
+import java.awt.Graphics2D;
+
+import javax.swing.JPanel;
+
+@SuppressWarnings("serial")
+public class DigitalPanel extends JPanel {
+	private Watch w;
+	private Graphics2D g;
+
+	public DigitalPanel() {
+//		w = new Watch();
+		g.drawString("abfsa", 20, 20);
+	}
+
+	public void draw(Graphics2D g) {
+		g.drawString("abc", 20, 20);
+	}
+}

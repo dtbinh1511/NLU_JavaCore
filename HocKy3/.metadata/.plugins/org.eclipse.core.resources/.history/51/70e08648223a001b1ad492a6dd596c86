@@ -1,0 +1,26 @@
+package Map_Co_Quynh;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.StringTokenizer;
+
+public class LoadFile {
+	public static HashMap<String, String> loadFile(String fileName) throws IOException {
+		BufferedReader reader = new BufferedReader(new FileReader(fileName));
+		HashMap<String, String> result = new HashMap<String, String>();
+
+		String line = reader.readLine();
+		while (line != null) {
+			StringTokenizer tokenizer = new StringTokenizer(line, "\t");//tach cac phan tu trong chuoi
+			String key = tokenizer.nextToken();
+			String value = tokenizer.nextToken();
+			result.put(key, value);
+			line = reader.readLine();
+		}
+
+		return result;
+
+	}
+}

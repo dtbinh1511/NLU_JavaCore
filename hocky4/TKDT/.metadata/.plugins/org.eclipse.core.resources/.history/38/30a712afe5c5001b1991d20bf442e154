@@ -1,0 +1,22 @@
+package watch;
+
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+
+import javax.swing.JPanel;
+
+@SuppressWarnings("serial")
+public class DigitalPanel extends JPanel {
+	private Watch w;
+
+	public DigitalPanel() {
+		
+	}
+	
+	public void draw(Graphics g) {
+		super.paintComponent(g);
+		
+		g.drawString("Hello World", 20, 20);
+	}
+
+}

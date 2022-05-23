@@ -1,0 +1,33 @@
+package watch;
+
+import java.awt.Graphics2D;
+import java.awt.event.*;
+import java.util.Calendar;
+import javax.swing.*;
+
+public class Frame extends JFrame {
+	private JLabel clockLable;
+	private Watch watch;
+
+	public Frame() {
+		watch = new Watch();
+		add(clockLable);
+		setSize(160, 60);
+		setLocationRelativeTo(clockLable);
+		addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {
+				System.exit(1);
+			}
+		});
+		setVisible(true);
+	}
+
+	public static void main(String[] args) {
+		Frame frame = new Frame();
+	}
+
+	public void draw(Graphics2D g) {
+		g.drawString(watch.getHour() + ":" + watch.getMinute() + ":" + watch.getSecond(), 20, 20);
+	}
+}

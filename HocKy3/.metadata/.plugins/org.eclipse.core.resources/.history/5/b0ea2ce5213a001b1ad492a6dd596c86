@@ -1,0 +1,33 @@
+package Map_Co_Quynh;
+
+import java.io.IOException;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+import java.util.TreeMap;
+
+public class Dictionary {
+	private Map<String, String> map;
+
+	public void loadFile(String fileName) throws IOException {
+		map = LoadFile.loadFile(fileName);
+	}
+
+	public String findVocabulary(String vocabulary) {
+		Set<String> set = this.map.keySet();
+		StringBuilder builder = new StringBuilder();
+
+		for (String string : set) {
+			if (string.indexOf(vocabulary) != -1)
+				builder.append(string + ": " + this.map.get(string) + "\n");
+		}
+		return (builder.length() == 0) ? "Không tìm thấy" : builder.toString();
+	}
+
+	public static void main(String[] args) throws IOException {
+		Dictionary dictionary = new Dictionary();
+		dictionary.loadFile("data/data.txt");
+
+		System.out.println(dictionary.findVocabulary("app"));
+	}
+}

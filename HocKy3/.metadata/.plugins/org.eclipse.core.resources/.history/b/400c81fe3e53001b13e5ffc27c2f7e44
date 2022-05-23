@@ -1,0 +1,22 @@
+package T.Du;
+
+import java.util.Date;
+import java.util.List;
+
+public class Student {
+	private String id;
+	private String name;
+	private Date brithday;
+	private int year;
+	private List<Publication> pubs;
+
+	public Student(String id, String name, Date brithday, int year, List<Publication> pubs) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.brithday = brithday;
+		this.year = year;
+		this.pubs = pubs;
+	}
+
+}

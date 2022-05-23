@@ -1,0 +1,23 @@
+package weather_station1;
+
+public class WeatherData {
+	private CurrentConditionDisplay conditionDisplay;
+	private StatisticDisplay statisticDisplay;
+	private ForecastDisplay forecastDisplay;
+	private float temperature;
+	private float humidity;
+	private float pressure;
+
+	public float getTemperature() {
+		return temperature;
+	}
+
+	public float getHumidity() {
+		return humidity;
+	}
+
+	public float getPressure() {
+		return pressure;
+	}
+
+}

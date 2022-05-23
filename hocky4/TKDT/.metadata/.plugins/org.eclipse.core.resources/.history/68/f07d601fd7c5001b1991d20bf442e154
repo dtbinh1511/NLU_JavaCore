@@ -1,0 +1,11 @@
+package watch;
+
+public class Test {
+	public static void main(String[] args) {
+		Watch watch = new Watch();
+
+		Analog analog = new Analog(watch);
+
+		watch.setMeansurements(new Date());
+	}
+}

@@ -1,0 +1,35 @@
+package watch;
+
+import java.util.Observable;
+
+public class Watch extends Observable {
+
+	private int second;
+	private int minute;
+	private int hour;
+
+	public int getSecond() {
+		return second;
+	}
+
+	public int getMinute() {
+		return minute;
+	}
+
+	public int getHour() {
+		return hour;
+	}
+
+	public void meansurementsChange() {
+		setChanged();
+		notifyObservers();
+	}
+
+	public void setMeansurements(int second, int minute, int hour) {
+		this.second = second;
+		this.minute = minute;
+		this.hour = hour;
+
+		meansurementsChange();
+	}
+}

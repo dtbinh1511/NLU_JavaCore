@@ -1,0 +1,38 @@
+package Set;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+import java.util.Set;
+import java.util.Stack;
+import java.util.TreeSet;
+
+public class Test implements Comparable<Test> {
+	public static void main(String[] args) {
+		List<String> list1 = new LinkedList<String>();
+		list1.add("Geeks");
+		list1.add("for");
+		list1.add("Geeks");
+		list1.add("GFG");
+		list1.add("GeeksforGreeks");
+
+		List<String> list2 = new LinkedList<String>();
+		list2.add("Geeks");
+		list1.removeAll(list2);
+
+		for (String string : list1)
+			System.out.print(string + " ");
+		System.out.println();
+
+//		Iterator it = map.iterator();
+//		while (it.hasNext())
+//			System.out.println(it.next() + " ");
+	}
+
+	@Override
+	public int compareTo(Test o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}

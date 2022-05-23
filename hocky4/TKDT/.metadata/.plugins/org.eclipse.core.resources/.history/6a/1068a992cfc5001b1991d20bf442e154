@@ -1,0 +1,29 @@
+package weather_station1;
+
+public class ForecastDisplay {
+	private float pressureCurrent = 29.92f;
+	private float pressureLast;
+	private WeatherData weatherData;
+
+	public ForecastDisplay(WeatherData weatherData) {
+		super();
+		this.weatherData = weatherData;
+		weatherData.setForecastDisplay(this);
+	}
+
+	public void update(float temp, float humidity, float pressure) {
+		pressureLast = pressureCurrent;
+		pressureCurrent = pressure;
+
+		statement();
+	}
+
+	public void statement() {
+		if (pressureCurrent > pressureLast)
+			System.out.println("Improving weather on the way!");
+		if (pressureCurrent == pressureLast)
+			System.out.println("More of the same");
+		if (pressureCurrent < pressureLast)
+			System.out.println("Watch out for cooler, rainy weather");
+	}
+}
