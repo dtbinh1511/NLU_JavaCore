@@ -1,0 +1,7 @@
+package AlphaBeta;
+
+public class TestAlphaBetaNew {
+	public static void main(String[] args) {
+
+	}
+}

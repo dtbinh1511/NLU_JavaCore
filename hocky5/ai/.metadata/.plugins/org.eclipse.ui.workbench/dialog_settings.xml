@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="D:\01. document university\01. FIT Store NLU\Trí tuệ nhân tạo\AI_D.Dũ\labs\Lab 9_Nim_K19\game_nim_student"/>
+			<item value="D:\01. document university\01. FIT Store NLU\Trí tuệ nhân tạo\AI_D.Dũ\labs\Lab 8\game_alphabeta_student"/>
+			<item value="D:\01. document university\01. FIT Store NLU\Trí tuệ nhân tạo\AI_D.Dũ\labs\Lab 6_HillClimbing_SA\student"/>
+			<item value="D:\01. document university\01. FIT Store NLU\Trí tuệ nhân tạo\AI_D.Dũ\labs\Lab5"/>
+			<item value="D:\01. document university\01. FIT Store NLU\Trí tuệ nhân tạo\AI_D.Dũ\Lab 4\student"/>
+		</list>
+	</section>
+</section>

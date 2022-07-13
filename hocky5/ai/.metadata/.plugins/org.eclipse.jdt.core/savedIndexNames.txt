@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+E:\java\hocKy5\ai\.metadata\.plugins\org.eclipse.jdt.core
+1134632368.index
+3668462602.index
+2094222643.index
+1007340512.index
+883305766.index
+3541958689.index
+1642175237.index
+3856276617.index
+1865797976.index
+2753114295.index
+2913959068.index
