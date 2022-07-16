@@ -1,0 +1,21 @@
+package netcopy;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.net.Socket;
+
+public class OneConnection {
+
+	DataInputStream dis;
+	DataOutputStream dos;
+	Socket socket;
+
+	public OneConnection(Socket socket) {
+		this.socket = socket;
+	}
+
+	public void run() {
+
+	}
+
+}

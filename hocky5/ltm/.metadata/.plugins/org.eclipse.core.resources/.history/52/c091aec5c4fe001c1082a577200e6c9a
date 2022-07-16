@@ -1,0 +1,10 @@
+package data_input_stream;
+
+import java.io.IOException;
+
+public class Test {
+	public static void main(String[] args) throws IOException {
+		BaiTap bt = new BaiTap();
+		bt.pack("E:\\Test\\Client\\Client1");
+	}
+}

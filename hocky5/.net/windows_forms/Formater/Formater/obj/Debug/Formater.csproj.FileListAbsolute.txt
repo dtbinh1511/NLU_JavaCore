@@ -1,0 +1,11 @@
+E:\java\hocKy5\.net\windows_forms\Formater\Formater\bin\Debug\Formater.exe.config
+E:\java\hocKy5\.net\windows_forms\Formater\Formater\bin\Debug\Formater.exe
+E:\java\hocKy5\.net\windows_forms\Formater\Formater\bin\Debug\Formater.pdb
+E:\java\hocKy5\.net\windows_forms\Formater\Formater\obj\Debug\Formater.csproj.AssemblyReference.cache
+E:\java\hocKy5\.net\windows_forms\Formater\Formater\obj\Debug\Formater.csproj.SuggestedBindingRedirects.cache
+E:\java\hocKy5\.net\windows_forms\Formater\Formater\obj\Debug\Formater.Form1.resources
+E:\java\hocKy5\.net\windows_forms\Formater\Formater\obj\Debug\Formater.Properties.Resources.resources
+E:\java\hocKy5\.net\windows_forms\Formater\Formater\obj\Debug\Formater.csproj.GenerateResource.cache
+E:\java\hocKy5\.net\windows_forms\Formater\Formater\obj\Debug\Formater.csproj.CoreCompileInputs.cache
+E:\java\hocKy5\.net\windows_forms\Formater\Formater\obj\Debug\Formater.exe
+E:\java\hocKy5\.net\windows_forms\Formater\Formater\obj\Debug\Formater.pdb

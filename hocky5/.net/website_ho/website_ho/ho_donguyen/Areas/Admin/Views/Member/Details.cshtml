@@ -1,0 +1,155 @@
+﻿@model WebDB.Models.ThanhVien
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ThanhVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HoTen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoTen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TenThuongGoi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenThuongGoi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiaChi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiaChi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GioiTinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GioiTinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgaySinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgaySinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NoiSinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoiSinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TinhTrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TinhTrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SapXep)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SapXep)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Anh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Anh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VaiTro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VaiTro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Chi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Chi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nganh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nganh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Doi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Doi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MoTa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MoTa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayMat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayMat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuanHe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuanHe)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaQuanHe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaQuanHe)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Ma }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

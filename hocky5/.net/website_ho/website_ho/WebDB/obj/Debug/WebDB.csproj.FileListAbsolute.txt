@@ -1,0 +1,12 @@
+E:\java\hocKy5\.net\website_ho\website_ho\WebDB\bin\Debug\WebDB.dll.config
+E:\java\hocKy5\.net\website_ho\website_ho\WebDB\bin\Debug\WebDB.dll
+E:\java\hocKy5\.net\website_ho\website_ho\WebDB\bin\Debug\WebDB.pdb
+E:\java\hocKy5\.net\website_ho\website_ho\WebDB\bin\Debug\EntityFramework.dll
+E:\java\hocKy5\.net\website_ho\website_ho\WebDB\bin\Debug\EntityFramework.SqlServer.dll
+E:\java\hocKy5\.net\website_ho\website_ho\WebDB\bin\Debug\EntityFramework.xml
+E:\java\hocKy5\.net\website_ho\website_ho\WebDB\bin\Debug\EntityFramework.SqlServer.xml
+E:\java\hocKy5\.net\website_ho\website_ho\WebDB\obj\Debug\WebDB.csproj.AssemblyReference.cache
+E:\java\hocKy5\.net\website_ho\website_ho\WebDB\obj\Debug\WebDB.csproj.CoreCompileInputs.cache
+E:\java\hocKy5\.net\website_ho\website_ho\WebDB\obj\Debug\WebDB.csproj.CopyComplete
+E:\java\hocKy5\.net\website_ho\website_ho\WebDB\obj\Debug\WebDB.dll
+E:\java\hocKy5\.net\website_ho\website_ho\WebDB\obj\Debug\WebDB.pdb

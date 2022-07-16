@@ -1,0 +1,16 @@
+package bai13;
+
+import java.util.List;
+
+public class StudentDAO {
+
+	// write file txt
+	public boolean writeFile(String sPath, List<Student> list) {
+		for (Student student : list) {
+			student.write(bis, bos);
+		}
+
+		return false;
+
+	}
+}

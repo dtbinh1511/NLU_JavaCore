@@ -1,0 +1,12 @@
+package pop3_tcp;
+
+import java.net.ServerSocket;
+
+public class Server {
+	public static void main(String[] args) {
+		ServerSocket socket = new ServerSocket(12345);
+		while(true) {
+			
+		}
+	}
+}

@@ -1,0 +1,31 @@
+package bai13;
+
+import java.io.DataInputStream;
+import java.io.DataOutput;
+import java.io.DataOutputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class StudentDAO {
+
+	// write file txt
+	public void writeFile(String destPath, List<Student> list) throws IOException {
+		DataOutputStream dos = new DataOutputStream(new FileOutputStream(destPath));
+		for (Student student : list) {
+			student.writeFile(dos);
+		}
+	}
+	
+	// read file txt
+	public List<Student> readFile(String sPath) throws IOException {
+		List<Student> list = new ArrayList<Student>();
+		DataInputStream dis = new DataInputStream(new FileInputStream(sPath));
+		
+		list.add(st.readFile(dis));
+	}
+	
+}

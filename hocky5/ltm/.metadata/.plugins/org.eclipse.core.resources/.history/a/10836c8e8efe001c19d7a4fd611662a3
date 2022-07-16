@@ -1,0 +1,13 @@
+package io;
+
+import java.io.IOException;
+
+public class Test {
+	public static void main(String[] args) throws IOException, ArrayIndexOutOfBoundsException {
+		BaiTap btchuong2 = new BaiTap();
+
+		String sFile = "E:\\Test\\TS01CV.pdf";
+		String destFile = "E:\\Test\\Client1\\TS01CV-copy.pdf";
+		btchuong2.fileCopy(sFile, destFile, false);
+	}
+}

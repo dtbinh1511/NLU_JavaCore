@@ -1,0 +1,140 @@
+﻿@model MyDB.Models.Slide
+
+@{
+    ViewBag.Title = "Xóa slider";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="content-wrapper">
+        <!-- Main content -->
+        <section class="content my-3">
+
+            <!-- Default box -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <strong class="text-danger text-uppercase">Xác nhận xóa slider</strong>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <button type="submit" value="Delete" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc muốn xóa không?');">
+                                <i class="fas fa-trash"></i> Xóa
+                            </button>
+                            <a href="@Url.Action("Edit","Slide")" class="btn btn-sm btn-primary">
+                                <i class="fas fa-edit"></i> Sửa
+                            </a>
+                            <a href="@Url.Action("Index","Slide")" class="btn btn-sm btn-info">
+                                <i class="fas fa-arrow-left"></i> Về trang chủ
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    @Html.Partial("Message")
+                    <table class="table table-striped table-bordered">
+                        <tr>
+                            <td>
+                                Vị trí
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(model => model.DisplayOrder)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Mã ảnh
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(model => model.Id)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Đường dẫn ảnh
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(model => model.Image)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Sự kiện
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(model => model.Event)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Ngày tạo
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(model => model.CreateAt)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Người tạo
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(model => model.CreateBy)
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                Ngày cập nhật
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(model => model.UpdateAt)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Người cập nhật
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(model => model.UpdateBy)
+                            </td>
+                        </tr>
+
+                        <tr>
+
+                            <td>
+                                Trạng thái
+                            </td>
+
+                            <td>
+                                @if (Model.Status == 1)
+                                {
+                                    <span class="text-success">Hoạt động</span>
+                                }
+                                else
+                                {
+                                    <span class="text-danger">Quá hạn</span>
+                                }
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+
+        </section>
+        <!-- /.content -->
+    </div>
+}

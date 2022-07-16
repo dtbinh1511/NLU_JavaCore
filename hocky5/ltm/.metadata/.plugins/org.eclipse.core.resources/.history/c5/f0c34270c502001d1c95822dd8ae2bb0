@@ -1,0 +1,9 @@
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+
+public class Server {
+	public static void main(String[] args) {
+		Registry reg = LocateRegistry.createRegistry(12345);
+		reg.bind("ST_SEARCH", new ISearch());
+	}
+}

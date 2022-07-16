@@ -1,0 +1,7 @@
+package tinhtoan;
+
+public class MyException {
+	public MyException(String msg) {
+
+	}
+}

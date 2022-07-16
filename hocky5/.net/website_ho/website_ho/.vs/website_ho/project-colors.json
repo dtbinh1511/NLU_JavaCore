@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "898ab9a1-a142-4b16-a7fa-7f09cfbe1c05": {
+      "ProjectGuid": "898ab9a1-a142-4b16-a7fa-7f09cfbe1c05",
+      "DisplayName": "ho_donguyen",
+      "ColorIndex": 0
+    },
+    "f0cb382c-c1ec-4390-80ad-5ba74329542c": {
+      "ProjectGuid": "f0cb382c-c1ec-4390-80ad-5ba74329542c",
+      "DisplayName": "WebDB",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

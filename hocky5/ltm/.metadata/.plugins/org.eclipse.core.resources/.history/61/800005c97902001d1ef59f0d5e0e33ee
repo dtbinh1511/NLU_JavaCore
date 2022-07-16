@@ -1,0 +1,38 @@
+package tinhtoan;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.Socket;
+
+public class Client1 {
+	public static void main(String[] args) {
+		run();
+	}
+
+	private static void run() {
+		try {
+			// kết nối server
+			Socket socket = new Socket("localhost", 12345);
+			// khai báo I/O Stream
+			BufferedReader netin = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+			PrintWriter netout = new PrintWriter(socket.getOutputStream());
+
+			// lấy dữ liệu từ người dùng
+			BufferedReader userIn = new BufferedReader(new InputStreamReader(System.in));
+			String line = userIn.readLine();
+
+			// gửi dữ liệu lên server
+			netout.write(line);
+			netout.flush();
+
+			// nhận dữ liệu
+			String respone = netin.readLine();
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+}

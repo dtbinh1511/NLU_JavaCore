@@ -1,0 +1,11 @@
+E:\java\hocKy5\.net\windows_forms\Order\bin\Debug\Order.exe.config
+E:\java\hocKy5\.net\windows_forms\Order\bin\Debug\Order.exe
+E:\java\hocKy5\.net\windows_forms\Order\bin\Debug\Order.pdb
+E:\java\hocKy5\.net\windows_forms\Order\obj\Debug\Order.csproj.AssemblyReference.cache
+E:\java\hocKy5\.net\windows_forms\Order\obj\Debug\Order.csproj.SuggestedBindingRedirects.cache
+E:\java\hocKy5\.net\windows_forms\Order\obj\Debug\Order.Form1.resources
+E:\java\hocKy5\.net\windows_forms\Order\obj\Debug\Order.Properties.Resources.resources
+E:\java\hocKy5\.net\windows_forms\Order\obj\Debug\Order.csproj.GenerateResource.cache
+E:\java\hocKy5\.net\windows_forms\Order\obj\Debug\Order.csproj.CoreCompileInputs.cache
+E:\java\hocKy5\.net\windows_forms\Order\obj\Debug\Order.exe
+E:\java\hocKy5\.net\windows_forms\Order\obj\Debug\Order.pdb

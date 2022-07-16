@@ -1,0 +1,11 @@
+E:\java\hocKy5\.net\windows_forms\wfButton\wfButton\bin\Debug\wfButton.exe.config
+E:\java\hocKy5\.net\windows_forms\wfButton\wfButton\bin\Debug\wfButton.exe
+E:\java\hocKy5\.net\windows_forms\wfButton\wfButton\bin\Debug\wfButton.pdb
+E:\java\hocKy5\.net\windows_forms\wfButton\wfButton\obj\Debug\wfButton.csproj.AssemblyReference.cache
+E:\java\hocKy5\.net\windows_forms\wfButton\wfButton\obj\Debug\wfButton.csproj.SuggestedBindingRedirects.cache
+E:\java\hocKy5\.net\windows_forms\wfButton\wfButton\obj\Debug\wfButton.Form1.resources
+E:\java\hocKy5\.net\windows_forms\wfButton\wfButton\obj\Debug\wfButton.Properties.Resources.resources
+E:\java\hocKy5\.net\windows_forms\wfButton\wfButton\obj\Debug\wfButton.csproj.GenerateResource.cache
+E:\java\hocKy5\.net\windows_forms\wfButton\wfButton\obj\Debug\wfButton.csproj.CoreCompileInputs.cache
+E:\java\hocKy5\.net\windows_forms\wfButton\wfButton\obj\Debug\wfButton.exe
+E:\java\hocKy5\.net\windows_forms\wfButton\wfButton\obj\Debug\wfButton.pdb

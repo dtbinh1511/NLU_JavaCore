@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>@Page.Title</title>
+
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link href="~/Assets/Admin/plugins/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <!-- Theme style -->
+    <link href="~/Assets/Admin/dist/css/adminlte.min.css" rel="stylesheet" />
+    @RenderSection("header", required: false)
+</head>
+
+<body class="hold-transition sidebar-mini">
+    <!-- Site wrapper -->
+    <div class="wrapper">
+
+        <div class="preloader flex-column justify-content-center align-items-center">
+            <img src="~/Assets/Admin/dist/img/AdminLTELogo.png" class="animation__shake" alt="AdminLogo" height="60" width="60" />
+        </div>
+
+        <!-- Navbar -->
+        @RenderPage("_LayoutHeaderAdmin.cshtml");
+
+        <!-- /.navbar -->
+        <!-- Main Sidebar Container -->
+        @RenderPage("_LayoutLeftMenuAdmin.cshtml");
+
+
+        @RenderBody()
+
+
+        @RenderPage("_LayoutFooterAdmin.cshtml");
+
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
+    </div>
+    <!-- ./wrapper -->
+    @RenderSection("footer", required: false)
+
+
+    <!-- jQuery -->
+    <script src="~/Assets/Admin/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="~/Assets/Admin/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="~/Assets/Admin/dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="~/Assets/Admin/dist/js/demo.js"></script>
+</body>
+</html>

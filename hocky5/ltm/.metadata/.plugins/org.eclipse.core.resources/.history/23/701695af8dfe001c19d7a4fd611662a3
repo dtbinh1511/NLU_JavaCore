@@ -1,0 +1,10 @@
+package io;
+
+public class Test {
+	public static void main(String[] args) {
+		BaiTap btchuong2 = new BaiTap();
+		
+		
+		btchuong2.fileCopy(sFile, destFile, false);
+	}
+}

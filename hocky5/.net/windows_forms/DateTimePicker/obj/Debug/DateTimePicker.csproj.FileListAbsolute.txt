@@ -1,0 +1,10 @@
+E:\java\hocKy5\.net\windows_forms\DateTimePicker\bin\Debug\DateTimePicker.exe.config
+E:\java\hocKy5\.net\windows_forms\DateTimePicker\bin\Debug\DateTimePicker.exe
+E:\java\hocKy5\.net\windows_forms\DateTimePicker\bin\Debug\DateTimePicker.pdb
+E:\java\hocKy5\.net\windows_forms\DateTimePicker\obj\Debug\DateTimePicker.csproj.SuggestedBindingRedirects.cache
+E:\java\hocKy5\.net\windows_forms\DateTimePicker\obj\Debug\DateTimePicker.Form1.resources
+E:\java\hocKy5\.net\windows_forms\DateTimePicker\obj\Debug\DateTimePicker.Properties.Resources.resources
+E:\java\hocKy5\.net\windows_forms\DateTimePicker\obj\Debug\DateTimePicker.csproj.GenerateResource.cache
+E:\java\hocKy5\.net\windows_forms\DateTimePicker\obj\Debug\DateTimePicker.csproj.CoreCompileInputs.cache
+E:\java\hocKy5\.net\windows_forms\DateTimePicker\obj\Debug\DateTimePicker.exe
+E:\java\hocKy5\.net\windows_forms\DateTimePicker\obj\Debug\DateTimePicker.pdb

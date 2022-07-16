@@ -1,0 +1,15 @@
+package io;
+
+import java.io.IOException;
+
+public class Test {
+	public static void main(String[] args) throws IOException {
+		BaiTap btchuong2 = new BaiTap();
+
+//		String sFile = "E:\\Test\\Client2\\TS01CV.pdf";
+		String sFile = "E:\\Test\\TS01CV.pdf";
+		String destFile = "E:\\Test\\Client1\\TS01CV-copy.pdf";
+		btchuong2.fileCopy(sFile, destFile, false);
+//		btchuong2.delete(destFile);
+	}
+}

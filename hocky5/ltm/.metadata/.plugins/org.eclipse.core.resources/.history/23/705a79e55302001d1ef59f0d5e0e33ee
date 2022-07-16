@@ -1,0 +1,14 @@
+package netcopy;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+
+public class Server {
+	public static int PORT = 12345;
+	
+	public static void main(String[] args) throws IOException {
+		ServerSocket server = new ServerSocket(PORT);
+		OneConnection connect = new OneConnection(server.accept());
+	}
+	
+}	

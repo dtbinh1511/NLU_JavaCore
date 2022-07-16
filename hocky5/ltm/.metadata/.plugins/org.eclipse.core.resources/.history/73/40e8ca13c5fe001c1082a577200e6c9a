@@ -1,0 +1,50 @@
+package data_input_stream;
+
+import java.io.BufferedInputStream;
+
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class BaiTap {
+// pack
+	public boolean pack(String sFolder, String archiveName) throws IOException {
+		DataOutputStream dos = new DataOutputStream(new FileOutputStream(archiveName));
+
+		File dir = new File(sFolder);
+		int count;
+		byte[] data = new byte[102400];
+		if (dir.isDirectory()) {
+			File[] contents = dir.listFiles();
+			if (contents != null) {
+				dos.writeInt(contents.length);
+
+				for (File file : contents) {
+					dos.writeUTF(file.getName());
+					dos.writeLong(file.length());
+					BufferedInputStream bis = new BufferedInputStream(new FileInputStream(file));
+
+					
+					while ((count = bis.read(data)) != -1)
+						dos.write(data, 0, count);
+					bis.close();
+				}
+			}
+
+		}
+
+		dos.close();
+		return true;
+	}
+
+	private void writable(BufferedInputStream bis, DataOutputStream dos) throws IOException {
+
+	}
+
+	public void unpack(String pathName) {
+
+	}
+}

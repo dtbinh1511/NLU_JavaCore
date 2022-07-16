@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "71f06bbe-97b1-475c-910f-4e2e4a0594eb": {
+      "ProjectGuid": "71f06bbe-97b1-475c-910f-4e2e4a0594eb",
+      "DisplayName": "MailTo",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "f5448462-6a95-4583-9319-673b365cea57": {
+      "ProjectGuid": "f5448462-6a95-4583-9319-673b365cea57",
+      "DisplayName": "Send_Email_MVC",
+      "ColorIndex": 1
+    },
+    "84167418-9e15-4e79-aa1d-7721d1496fba": {
+      "ProjectGuid": "84167418-9e15-4e79-aa1d-7721d1496fba",
+      "DisplayName": "Mail",
+      "ColorIndex": 2
+    },
+    "613b2891-7a0f-4567-a0fc-9bffc0d78393": {
+      "ProjectGuid": "613b2891-7a0f-4567-a0fc-9bffc0d78393",
+      "DisplayName": "Send_Email_MVC(1)",
+      "ColorIndex": 3
+    },
+    "107a4040-648e-4fcb-8e57-71c5bf6bb1fc": {
+      "ProjectGuid": "107a4040-648e-4fcb-8e57-71c5bf6bb1fc",
+      "DisplayName": "BT1",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

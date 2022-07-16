@@ -1,0 +1,9 @@
+package chuong_1;
+
+public class Test {
+	public static void main(String[] args) {
+		BaiTap btChuong1 = new BaiTap();
+
+		System.out.println(btChuong1.deleteFile("E:\\Test\\Client1"));
+	}
+}

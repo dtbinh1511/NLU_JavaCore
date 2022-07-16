@@ -1,0 +1,7 @@
+package pop3_tcp;
+
+public class Test {
+	public static void main(String[] args) throws ClassNotFoundException {
+		Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+	}
+}

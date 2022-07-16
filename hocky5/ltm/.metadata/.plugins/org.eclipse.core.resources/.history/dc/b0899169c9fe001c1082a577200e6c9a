@@ -1,0 +1,20 @@
+package bai13;
+
+import java.io.DataOutput;
+import java.io.DataOutputStream;
+import java.io.FileOutputStream;
+import java.util.List;
+
+public class StudentDAO {
+
+	// write file txt
+	public boolean writeFile(String destPath, List<Student> list) {
+		DataOutputStream dos = new DataOutputStream(new FileOutputStream(destPath));
+		for (Student student : list) {
+			student.write(dos);
+		}
+
+		return false;
+
+	}
+}

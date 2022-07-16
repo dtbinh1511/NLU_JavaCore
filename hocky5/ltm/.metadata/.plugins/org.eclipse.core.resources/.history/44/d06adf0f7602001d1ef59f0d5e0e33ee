@@ -1,0 +1,5 @@
+package tinhtoan;
+
+public class Server {
+	public int PORT = 12345;
+}

@@ -1,0 +1,11 @@
+E:\java\hocKy5\.net\windows_forms\Combox\bin\Debug\Combox.exe.config
+E:\java\hocKy5\.net\windows_forms\Combox\bin\Debug\Combox.exe
+E:\java\hocKy5\.net\windows_forms\Combox\bin\Debug\Combox.pdb
+E:\java\hocKy5\.net\windows_forms\Combox\obj\Debug\Combox.csproj.SuggestedBindingRedirects.cache
+E:\java\hocKy5\.net\windows_forms\Combox\obj\Debug\Combox.Form1.resources
+E:\java\hocKy5\.net\windows_forms\Combox\obj\Debug\Combox.Properties.Resources.resources
+E:\java\hocKy5\.net\windows_forms\Combox\obj\Debug\Combox.csproj.GenerateResource.cache
+E:\java\hocKy5\.net\windows_forms\Combox\obj\Debug\Combox.csproj.CoreCompileInputs.cache
+E:\java\hocKy5\.net\windows_forms\Combox\obj\Debug\Combox.exe
+E:\java\hocKy5\.net\windows_forms\Combox\obj\Debug\Combox.pdb
+E:\java\hocKy5\.net\windows_forms\Combox\obj\Debug\Combox.csproj.AssemblyReference.cache

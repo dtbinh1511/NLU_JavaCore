@@ -1,0 +1,14 @@
+package tinhtoan;
+
+import java.net.Socket;
+
+public class Client1 {
+	public static void main(String[] args) {
+		run();
+	}
+
+	private static void run() {
+		// kết nối server
+		Socket socket = new Socket("localhost", 12345);
+	}
+}

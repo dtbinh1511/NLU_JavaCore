@@ -1,0 +1,11 @@
+E:\java\hocKy5\.net\windows_forms\PictureBox\bin\Debug\PictureBox.exe.config
+E:\java\hocKy5\.net\windows_forms\PictureBox\bin\Debug\PictureBox.exe
+E:\java\hocKy5\.net\windows_forms\PictureBox\bin\Debug\PictureBox.pdb
+E:\java\hocKy5\.net\windows_forms\PictureBox\obj\Debug\PictureBox.csproj.AssemblyReference.cache
+E:\java\hocKy5\.net\windows_forms\PictureBox\obj\Debug\PictureBox.csproj.SuggestedBindingRedirects.cache
+E:\java\hocKy5\.net\windows_forms\PictureBox\obj\Debug\PictureBox.Form1.resources
+E:\java\hocKy5\.net\windows_forms\PictureBox\obj\Debug\PictureBox.Properties.Resources.resources
+E:\java\hocKy5\.net\windows_forms\PictureBox\obj\Debug\PictureBox.csproj.GenerateResource.cache
+E:\java\hocKy5\.net\windows_forms\PictureBox\obj\Debug\PictureBox.csproj.CoreCompileInputs.cache
+E:\java\hocKy5\.net\windows_forms\PictureBox\obj\Debug\PictureBox.exe
+E:\java\hocKy5\.net\windows_forms\PictureBox\obj\Debug\PictureBox.pdb

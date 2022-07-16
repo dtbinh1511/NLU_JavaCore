@@ -1,0 +1,7 @@
+package data_input_stream;
+
+public class Test {
+	public static void main(String[] args) {
+
+	}
+}
